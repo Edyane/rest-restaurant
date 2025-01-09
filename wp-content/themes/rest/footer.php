@@ -10,6 +10,6 @@
 			<p>Rest © 2025. Alguns direitos reservados.</p>
 		</footer>
 
+		<?php get_footer(); ?>
 	</body>
 </html>
-<?php get_footer(); ?>
