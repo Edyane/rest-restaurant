@@ -1,6 +1,6 @@
 # Rest 🍽️
 
-O tema **Rest** foi criado como parte do curso "WordPress como CMS", ministrado pelo professor André Rafael, com o objetivo de desenvolver uma página de restaurante moderna, elegante e totalmente funcional. Com foco na personalização e na experiência do usuário, o tema oferece recursos essenciais para promover o seu restaurante online, como um menu detalhado, informações sobre o estabelecimento, sistema de reservas, localização no mapa e muito mais
+O tema **Rest** foi criado como parte do curso "WordPress como CMS", ministrado pelo professor André Rafael, com o objetivo de desenvolver uma página de restaurante moderna, elegante e totalmente funcional. Com foco na personalização e na experiência do usuário, o tema oferece recursos essenciais para promover o seu restaurante online, como um menu detalhado, informações sobre o estabelecimento, sistema de reservas, localização no mapa e muito mais.
 
 <div align="center">
 

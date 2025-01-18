@@ -1,0 +1,33 @@
+1 - Copiar a pasta do site para wp-content/themes/
+
+2 - Mudar o index.html para index.php
+
+3 - Colocar/criar o arquivo style.css na raiz do tema
+
+4 - Adicionar a descrição do tema no topo do style.css
+/*
+Theme Name: Rest
+Theme URI: http://rest.com
+Author: André Rafael
+Author URI: http://origamid.com/
+Description: Tema criado para o restaurante Rest
+Version: 1.0
+*/
+
+5 - Ativar o tema no Wordpress
+
+6 - Corrigir o caminho do style.css e outros caminhos se necessário
+<?php echo get_stylesheet_directory_uri(); ?>
+Essa função adiciona o caminho até a raiz do tema
+
+7 - Separar o header e footer em arquivos header.php e footer.php
+Adicionar antes de fechar o head: <?php wp_head(); ?>
+Adicionar antes de fechar o body: <?php wp_footer(); ?>
+Adicionar o header e footer nas páginas do site e mudá-las para .php
+Com <?php get_header(); ?> e <?php get_footer(); ?>
+
+8 - Começar a substituir o conteúdo por funções de Wordpress
+
+<?php bloginfo('name'); ?>
+Mostra o nome do blog
+

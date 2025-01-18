@@ -7,9 +7,11 @@
 				</ul>
 			</nav>
 
-			<p>Rest © 2025. Alguns direitos reservados.</p>
+			<p>Rest © 2015. Alguns direitos reservados.</p>
 		</footer>
 
-		<?php get_footer(); ?>
+		<!-- Footer Wordpress -->
+		<?php wp_footer(); ?>
+		<!-- Fecha Footer Wordpress -->
 	</body>
 </html>
