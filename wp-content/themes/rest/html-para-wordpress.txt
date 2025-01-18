@@ -44,10 +44,19 @@ Adicionar o nome page- na frente de cada template de página para facilitar a or
 O Loop é utilizado para mostrar o conteúdo dos posts,
 ele é inteligente o suficiente para saber se precisa mostrar apenas um ou uma sequência.
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+Adicionar o Loop as páginas e ao index.php
 
-// Aqui vai o conteúdo
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+	
+	<?php the_title(); ?>
+	<?php the_content(); ?>
 
 <?php endwhile; else: ?>
 <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
+
+12 - Advanced Custom Fields
+
+Adicionar o Plugin Advanced Custom Fields
+Iniciar a troca do conteúdo por fields, <?php the_field('nome_conteudo'); ?>
+Adicionar o conteúdo a interface do Custom Fields.
