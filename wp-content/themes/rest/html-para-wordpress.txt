@@ -31,3 +31,23 @@ Com <?php get_header(); ?> e <?php get_footer(); ?>
 <?php bloginfo('name'); ?>
 Mostra o nome do blog
 
+9 - Adicionar as páginas na interface do Wordpress
+
+10 - Transformar as páginas em HTML, em templates de Páginas
+A página index.php deve estar reservada para conteúdo genérico.
+Adicionar o nome page- na frente de cada template de página para facilitar a organização.
+<?php
+// Template Name: Sobre
+?>
+
+11 - Adicionar o Loop
+O Loop é utilizado para mostrar o conteúdo dos posts,
+ele é inteligente o suficiente para saber se precisa mostrar apenas um ou uma sequência.
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+// Aqui vai o conteúdo
+
+<?php endwhile; else: ?>
+<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+<?php endif; ?>
