@@ -7,7 +7,7 @@
 				</ul>
 			</nav>
 
-			<p>Rest © 2015. Alguns direitos reservados.</p>
+			<p>Rest © 2025. Todos os direitos reservados.</p>
 		</footer>
 
 		<!-- Footer Wordpress -->
