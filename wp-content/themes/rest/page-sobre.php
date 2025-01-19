@@ -8,17 +8,16 @@
 			<h2 class="subtitulo"><?php the_title(); ?></h2>
 
 			<div class="grid-8">
-				<img src="img/rest-fachada.jpg" alt="Fachada do Rest">
+				<img src="<?php the_field('foto_rest'); ?>" alt="<?php the_field('foto_rest_descricao'); ?>">
 			</div>
 
 			<div class="grid-8">
-				<h2>História</h2>
-				<p>O incentivo ao avanço tecnológico, assim como a mobilidade dos capitais internacionais auxilia a preparação e a composição dos níveis de motivação departamental.</p>
-				<p>Gostaria de enfatizar que o desenvolvimento contínuo de distintas formas de atuação prepara-nos para enfrentar situações atípicas decorrentes do remanejamento dos quadros funcionais.</p>
+				<h2><?php the_field('titulo_da_historia'); ?></h2>
+				<p><?php the_field('texto_da_historia'); ?></p>
 				<h2>Visão</h2>
-				<p>Não obstante, a expansão dos mercados mundiais faz parte de um processo de gerenciamento de alternativas às soluções ortodoxas.</p>
+				<p>Nossa visão é ser o restaurante de referência do bairro, um local onde todos se sintam acolhidos e conectados, seja para uma refeição rápida ou para celebrar momentos especiais.</p>
 				<h2>Valores</h2>
-				<p>O empenho em analisar a consolidação das estruturas apresenta tendências no sentido de aprovar a manutenção dos índices pretendidos.</p>
+				<p>Acreditamos que um bom ambiente começa com um sorriso e a sensação de pertencimento. Nosso restaurante é um espaço onde todos são bem-vindos, e nossa missão é promover a união e o carinho entre os membros da nossa comunidade.</p>
 			</div>
 		</section>
 <?php endwhile; else: endif; ?>
