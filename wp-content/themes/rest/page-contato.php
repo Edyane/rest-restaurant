@@ -8,7 +8,8 @@
 			<h2 class="subtitulo"><?php the_title(); ?></h2>
 
 			<div class="grid-16">
-				<a href="https://www.google.com.br/maps" target="_blank"><img src="img/rest-mapa.jpg" alt="Fachada do Rest"></a>
+				<a href="https://www.google.com.br/maps" target="_blank">
+				<img src="<?php the_field('foto_do_mapa'); ?>" alt="<?php the_field('foto_do_mapa_descricao'); ?>">
 			</div>
 
 			<div class="grid-1-3 contato-item">
