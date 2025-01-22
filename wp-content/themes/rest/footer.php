@@ -8,6 +8,7 @@
 			</nav>
 
 			<p>Rest © 2025. Todos os direitos reservados.</p>
+			<p><?php bloginfo('name'); ?> © <?php echo date("Y"); ?>. Todos os direitos reservados.</p>
 		</footer>
 
 		<!-- Footer Wordpress -->
