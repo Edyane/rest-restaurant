@@ -14,10 +14,10 @@
 			<div class="grid-8">
 				<h2><?php the_field('titulo_da_historia'); ?></h2>
 				<p><?php the_field('texto_da_historia'); ?></p>
-				<h2>Visão</h2>
-				<p>Nossa visão é ser o restaurante de referência do bairro, um local onde todos se sintam acolhidos e conectados, seja para uma refeição rápida ou para celebrar momentos especiais.</p>
-				<h2>Valores</h2>
-				<p>Acreditamos que um bom ambiente começa com um sorriso e a sensação de pertencimento. Nosso restaurante é um espaço onde todos são bem-vindos, e nossa missão é promover a união e o carinho entre os membros da nossa comunidade.</p>
+				<h2><?php the_field('titulo_da_visao'); ?></h2>
+				<p><?php the_field('texto_da_visao'); ?></>
+				<h2><?php the_field('titulo_dos_valores'); ?></h2>
+				<p><?php the_field('texto_dos_valores'); ?></>
 			</div>
 		</section>
 <?php endwhile; else: endif; ?>
