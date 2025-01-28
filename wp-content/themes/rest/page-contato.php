@@ -20,13 +20,17 @@
 				<!-- <p>contato@rest.com</p> -->
 				<p><?php the_field('email'); ?></p>
 				<!-- <p>facebook.com/rest/</p> -->
-				<p><?php the_field('email'); ?></p>
+				<p><?php the_field('facebook'); ?></p>
 			</div>
 			<div class="grid-1-3 contato-item">
-				<h2>Horários</h2>
-				<p>Segunda à Sexta: 10 às 23</p>
-				<p>Sábado: 14 às 23</p>
-				<p>Domingo: 14 às 22</p>
+				<!-- <h2>Horários</h2> -->
+				<h2><?php the_field('titulo_horarios'); ?></h2>
+				<!-- <p>Segunda à Sexta: 10 às 23</p> -->
+				<p><?php the_field('texto_dia_horario'); ?></p>
+				<!-- <p>Sábado: 14 às 23</p> -->
+				<p><?php the_field('texto_sabado_horario'); ?></p>
+				<!-- <p>Domingo: 14 às 22</p> -->
+				<p><?php the_field('texto_domingo_horario'); ?></p>
 			</div>
 			<div class="grid-1-3 contato-item">
 				<h2>Endereço</h2>
