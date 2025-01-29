@@ -25,10 +25,10 @@
 				<p><?php the_field('texto_domingo_horario'); ?></p>
 			</div>
 			<div class="grid-1-3 contato-item">
-				<h2>Endereço</h2>
-				<p>Rua Marechal, 29</p>
-				<p>Copacabana - Rio de Janeiro</p>
-				<p>Brasil - Terra - Via Láctea</p>
+				<h2><?php the_field('titulo_endereco'); ?></h2>
+				<p><?php the_field('texto_rua'); ?></p>
+				<p><?php the_field('texto_cidade'); ?></p>
+				<p><?php the_field('texto_pais'); ?></p>
 			</div>
 		</section>
 <?php endwhile; else: endif; ?>
