@@ -1,0 +1,42 @@
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignora diretórios de cache
+wp-admin
+wp-includes
+
+# Ignora arquivos de configurações do servidor e banco de dados
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-config.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# Ignora arquivos temporários do editor
+*.swp
+*.swo
+
+# Ignora arquivos de backup de banco de dados
+*.sql
+*.sql.gz
+
+# Ignora qualquer arquivo gerado automaticamente pelo Composer ou outros gerenciadores de pacotes
+/vendor/
+
+# Ignora a pasta de dependências (se usar Composer ou similar)
+composer.lock
+composer.json
+
+# Ignora arquivos de log do servidor
+*.log
